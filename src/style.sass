@@ -4,6 +4,8 @@
 @import './assets/sass/fontawesome/solid.scss'
 
 @import './elements/header/_header'
+@import './elements/button/_button'
+@import './elements/logo/_logo'
 
 *
     margin: 0
@@ -12,8 +14,15 @@
 
     font-family: Montserrat, sans-serif
 
+body
+    background-color: #E5E5E5
+
 .ui-container
-    margin-top: 140px
+    &>*+*
+        margin-top: 40px
+
+.container
+    max-width: 81%
 
 li
     list-style: none

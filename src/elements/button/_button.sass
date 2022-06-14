@@ -1,0 +1,26 @@
+.btn
+    border-radius: 1.83em
+    padding: 0.83em 1.67em
+
+    text-transform: uppercase
+    font-weight: 700
+    font-size: 0.75rem
+
+    transition: opacity 0.15s
+    &:hover
+        opacity: 0.5
+        &:active
+            opacity: 1
+
+    &__purple
+        background: $primaryGradient
+        color: white
+        border: none
+
+    &__white
+        background: white
+        color: $purple
+
+        border: none
+        outline: 0.17em solid $purple
+        outline-offset: -0.17em
